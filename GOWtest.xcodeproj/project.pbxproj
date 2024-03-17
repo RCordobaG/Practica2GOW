@@ -43,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B66430E2BA6D7BE009B0252 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		5B66430F2BA6D7BE009B0252 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5B6643102BA6D7BE009B0252 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE4CF7F52B9CB40800B2D20E /* WeaponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCell.swift; sourceTree = "<group>"; };
 		CE4CF7F82B9CBD5300B2D20E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE4CF7FB2B9CC3F200B2D20E /* CGF Locust Resistance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CGF Locust Resistance.ttf"; sourceTree = "<group>"; };
@@ -270,6 +273,7 @@
 				en,
 				Base,
 				it,
+				de,
 			);
 			mainGroup = CED21FDE2B9BD10B007AEFCA;
 			productRefGroup = CED21FE82B9BD10C007AEFCA /* Products */;
@@ -366,6 +370,7 @@
 			children = (
 				CE4CF7FE2B9CCD3C00B2D20E /* Base */,
 				CE4CF8022B9CCDD000B2D20E /* it */,
+				5B6643102BA6D7BE009B0252 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -375,6 +380,7 @@
 			children = (
 				CED21FF12B9BD10C007AEFCA /* Base */,
 				CE4CF8002B9CCDCF00B2D20E /* it */,
+				5B66430E2BA6D7BE009B0252 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 			children = (
 				CED21FF62B9BD10F007AEFCA /* Base */,
 				CE4CF8012B9CCDD000B2D20E /* it */,
+				5B66430F2BA6D7BE009B0252 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
